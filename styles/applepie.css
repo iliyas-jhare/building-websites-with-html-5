@@ -1,0 +1,14 @@
+p>span {
+    color: #4dcfa8;
+    font-weight: bold;
+}
+
+main>article>figure>a>img {
+    width: 100%;
+}
+
+#favourite {
+    color: inherit;
+    font-weight: inherit;
+    font-size: small;
+}
