@@ -1,9 +1,10 @@
 table,
 th,
 td {
-    border: solid 1px black;
+    border: solid 1px #a593c2;
+    border-radius: 5px;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 10px;
 }
 
 td>img {
