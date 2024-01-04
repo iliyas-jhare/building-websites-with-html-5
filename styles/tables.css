@@ -16,7 +16,7 @@ td img {
     width: 100px;
 }
 
-#open-text {
+.open-text {
     font-size: smaller;
 }
 
@@ -40,4 +40,12 @@ td img {
 .anchor-icon {
     width: 8px !important;
     margin-left: 5px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d3fff3;
+}
+
+tr:nth-of-type(even) {
+    background-color: #ede2ff;
 }

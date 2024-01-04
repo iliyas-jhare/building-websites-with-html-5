@@ -10,6 +10,9 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/site.css" type="text/css">
     <script src="scripts/site.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -31,14 +34,14 @@
         <aside id="main-leftside">
             <a href="/"><img src="images/bethanylogo.png" alt="Bethanys pie shop logo"></a>
             <header>
-                <h4>Browse our pies</h4>
+                <h6 id="sidebar-header">Browse our pies</h6>
             </header>
             <ul>
                 <li><a href="views/allpiesview.html">All Pies</a></li>
                 <li><a href="views/cheesecakesview.html">Cheese cakes</a></li>
                 <li><a href="views/fruitpiesview.html">Fruit pies</a></li>
                 <li><a href="views/seasonalpiesview.html">Seasonal pies</a></li>
-                <li><a href="#promos">Promotions</a></li>
+                <li><a href="views/promotionsview.html">Promotions</a></li>
             </ul>
             <input type="search" class="searchbox" placeholder="Search our store">
         </aside>
@@ -49,7 +52,7 @@
                 </header>
                 <figure>
                     <img src="images/bethany.jpg" alt="Bethany in her pie shop">
-                    <figcaption>Bethany in her pie shop</figcaption>
+                    <figcaption><em>Bethany in her pie shop</em></figcaption>
                 </figure>
                 <h2>Our history <small>so far</small></h2>
                 <p>
@@ -80,14 +83,8 @@
                     the best.
                 </p>
                 <p>Download our &rarr; full <a href="downloads/price_list.zip">price list</a>.</p>
-                <br>
             </article>
-            <section id="promos">
-                <h3>Our weekly promotions</h3>
-                <h4>Cheese Cake</h4>
-                $12.95 - serves four <br>
-                <img src="images/cheesecake.jpg" alt="Cheese cake with strawberry" width="100%" />
-            </section>
+
         </main>
         <footer>
             <p>Our address is
